@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flipBook>
+	<siteOptions>
+		<pageSetup pageW="400" pageH="500" hardCover="false" pageClr="eeeeee" flipSound="true" reverseOrder="false" bgClr="000000" hStartClr="ffffff" hStartAlp="100" hEndClr="ced1da" hEndAlp="100" overLayClr="000000" overLayTrans="60" bgImage="true" bgUrl="images/back1px.jpg" bgStyle="tile" autoPlayer="true" autoDur="15" preLoadTxt="Loading, please wait..."></pageSetup>
+		<buttonSetup highlClr="ffffff" darkClr="8d9897" rimClr="ffffff" iconClr="000000" buttonPack="buttonpack01"></buttonSetup>
+		<logoSetup showLogo="true" logoUrl="images/logo.png" logoShade="false" logoBevel="false" logoGlow="false"></logoSetup>
+		<helpSetup showMe="true" downPdfBut="Download PDF" printBut="Print pages" contactBut="Contact us" listBut="List pages" zoomBut="Zoom in/out" singleBut="Flip a single page" allBut="Flip all pages" cornerHint="Click and drag a corner to flip a page" lineClr="ffffff" overLayClr="000000" overLayTrans="60"></helpSetup>
+		<pdfSetup showMe="true" pdfUrl="pdf/mobiletag.pdf"></pdfSetup>
+		<zoomSetup showMe="true" extendedZoom="true"><![CDATA[<dragMessage>CLICK & DRAG THE PAGES<br /><br />Use your mousewheel to zoom even further.</dragMessage>]]></zoomSetup>
+		<printSetup showMe="true">
+			<printHead><![CDATA[<headPrint>Print options</headPrint>]]></printHead>
+			<printOne butTxt="PRINT"><![CDATA[<headPrint>Print a single page</headPrint><br /><contPrint>To print a single page, select the page number in the field below and press the button.</contPrint>]]></printOne>
+			<printAll butTxt="PRINT"><![CDATA[<headPrint>Print all pages</headPrint><br /><contPrint>To print all pages, press <i>this</i> button.</contPrint>]]></printAll>			
+		</printSetup>
+		<contactSetup showMe="false" nameField="Name" mailField="Email" subjField="Subject" messageField="Message" errTxt1="Mandatory..." errTxt2="Not a valid format..." procTxt="Processing data..." sucMess="Your message has been send!">
+			<contactHead><![CDATA[<headPrint>Contact us</headPrint>]]></contactHead>
+			<contactTxt butTxt="SEND"><![CDATA[<contPrint>Fill out the form below. The fields marked with <b>*</b> are required!</contPrint>]]></contactTxt>
+		</contactSetup>
+		<listPages showMe="true"></listPages>
+		<mp3Setup useMp3="true" usePhp="false" autoStart="true" randomStart="true"></mp3Setup>
+	</siteOptions>
+	<bookPages>
+		<page src="pages/img01.png"></page>
+		<page src="pages/img02.png"></page>
+		<page src="pages/img03.png"></page>
+		<page src="pages/img04.png"></page>
+		<page src="pages/img05.png"></page>
+		<page src="pages/img06.png"></page>
+		<page src="pages/img07.png"></page>
+		<page src="pages/img08.png"></page>
+		<page src="pages/img09.png"></page>
+		<page src="pages/img10.png"></page>
+		<page src="pages/img11.png"></page>
+		<page src="pages/img12.png"></page>
+		<page src="pages/img13.png"></page>
+		<page src="pages/img14.png"></page>
+		<page src="pages/img15.png"></page>
+		<page src="pages/img16.png"></page>
+		<page src="pages/img17.png"></page>
+		<page src="pages/img18.png"></page>
+		<page src="pages/img19.png"></page>
+		<page src="pages/img20.png"></page>
+		<page src="pages/img21.png"></page>
+		<page src="pages/img22.png"></page>
+		<page src="pages/img23.png"></page>
+		<page src="pages/img24.png"></page>
+		<page src="pages/img25.png"></page>
+		<page src="pages/img26.png"></page>
+		<page src="pages/img27.png"></page>
+		<page src="pages/img28.png"></page>
+	</bookPages>	
+</flipBook>

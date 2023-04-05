@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+	
+<html>
+<head>
+	<title>Artpaschenko - page is not found</title>
+	<meta name="robots" content="noindex" />
+	<meta name="robots" content="nofollow" />	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<link href="./404.css" rel="stylesheet" media="all" />	
+	<script type="text/javascript" src="./jquery-1.6.1.min.js"></script>
+</head>
+
+<body>	
+	<div class="h"></div>  
+	<div class="stars">
+
+		<div class="page404">
+			<div class="title">
+				<div class="label_top">404</div>
+				Page is not found
+				<div class="label_bottom"></div>
+			</div>
+			<div class="state">click to other pages</div>
+				
+			<div id="habr_center_universe">
+				
+				<a href="/" class="habr"></a>
+				
+				<div class="planet brainstorage">
+					<a href="/resume.htm" class="name">Resume</a>
+					<a href="/resume.htm" class="picture"></a>
+				</div>
+				
+				<div class="planet hantim">
+	
+					<a href="/flash.htm" class="picture"></a>
+					<a href="/flash.htm" class="name">Flash</a>
+				</div>
+				
+				<div class="planet freelansim">
+					<a href="/design.htm" class="picture"></a>
+					<a href="/design.htm" class="name">Design</a>
+				</div>
+			</div>
+			
+			
+			<div class="button"><a href="/">Home</a></div>
+
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			var brainstorage = $('.brainstorage')
+			var hantim = $('.hantim')
+			var freelansim = $('.freelansim')
+
+			var brainstorage_start = 0;
+			var hantim_start = 1600;
+			var freelansim_start = 3600;
+			
+			setInterval(function(){    
+		    ++brainstorage_start;    
+		    var brainstorage_css = {
+		    	'left': Math.sin(brainstorage_start * 0.001) * 165, 
+		    	'top': Math.cos(brainstorage_start * 0.001) * 165
+		    	}
+		    brainstorage.css(brainstorage_css);
+		   	
+		   	++hantim_start;    
+		    var hantim_css = {
+		    	'left': Math.sin(hantim_start * 0.001) * 160 , 
+		    	'top': Math.cos(hantim_start * 0.001) * 160
+		    	}
+		    hantim.css(hantim_css); 
+		    
+		    ++freelansim_start;    
+		    var freelansim_css = {
+		    	'left': Math.sin(freelansim_start * 0.001) * 165 , 
+		    	'top': Math.cos(freelansim_start * 0.001) * 165
+		    	}
+		    freelansim.css(freelansim_css); 
+		  }, 1);
+		})
+	</script>
+
+
+
+				
+
+<!--  AdRiver code START. Type:counter(zeropixel) Site: SP SZ: 404 PZ: 0 BN: 0 -->
+<script language="javascript" type="text/javascript"><!--
+var RndNum4NoCash = Math.round(Math.random() * 1000000000);
+var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);
+document.write('<img src="http://ad.adriver.ru/cgi-bin/rle.cgi?' + 'sid=179440&sz=404&bt=21&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '" border=0 width=1 height=1>')
+//--></script>
+<noscript><img src="http://ad.adriver.ru/cgi-bin/rle.cgi?sid=179440&sz=404&bt=21&pz=0&rnd=936031444" border=0 width=1 height=1></noscript>
+<!--  AdRiver code END  -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-726094-1");
+pageTracker._trackPageview();
+</script>
+
+
+</body>
+</html>
