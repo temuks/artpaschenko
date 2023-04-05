@@ -1924,7 +1924,7 @@ section {
     padding: 0 1em;
     height: 3em;
     display: none;
-    font-weight: 600
+    font-weight: 600;
 }
 .no-rgba [role="navigation"] {
     background: #2a2a2a

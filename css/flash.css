@@ -1918,13 +1918,13 @@ section {
 [role="navigation"]>ul span {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 4px;
     opacity: 0;
     width: 6em;
     padding: 0 1em;
     height: 3em;
     display: none;
-    font-weight: 600
+    font-weight: 600;
 }
 .no-rgba [role="navigation"] {
     background: #2a2a2a
